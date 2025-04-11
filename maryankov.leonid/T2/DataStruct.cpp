@@ -1,6 +1,6 @@
-#include"DataStruct.h"
+#include "DataStruct.h"
 
-namespacenspace {
+namespace nspace {
    bool comparator(const DataStruct& left, const DataStruct& right) {
        if (left.key1 != right.key1) {
            return left.key1 < right.key1;

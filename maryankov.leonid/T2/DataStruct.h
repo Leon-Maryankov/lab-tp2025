@@ -1,6 +1,6 @@
-#pragmaonce
-#ifndefDATA_STRUCT
-#defineDATA_STRUCT
+#pragma once
+#ifndef DATA_STRUCT
+#define DATA_STRUCT
 
 #include<iostream>
 #include<string>
@@ -11,7 +11,7 @@
 #include<algorithm>
 #include<cctype>
 
-namespacenspace {
+namespace nspace {
    struct DataStruct {
        unsigned long long key1 = 0;
        std::complex<double> key2;
