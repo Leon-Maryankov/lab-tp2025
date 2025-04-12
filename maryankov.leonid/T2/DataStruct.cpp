@@ -39,6 +39,7 @@ namespace nspace {
        if (c == ':') {
            in.putback(c);
        }
+
        if (hexNum.size() < 3 || hexNum[0] != '0' || (toupper(hexNum[1]) != 'X')) {
            in.setstate(std::ios::failbit);
            return in;
